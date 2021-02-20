@@ -1,8 +1,8 @@
-# Markdown Worksheet
+# Markdown Cheat sheet
 
 ![Project Image](https://i.imgur.com/5Vq50PW.png)
 
-> ### A once beginner Markdown worksheet turned cheat sheet.
+> ### Once a beginner Markdown worksheet turned cheat sheet.
 
 ---
 
@@ -14,8 +14,8 @@ Sections headers were used as reference to the location point
 - [How To Use](#how-to-use)
 - [Additional Resources](#additional-resources)
 - [License](#license)
-- [Author Info](#author-info)
-
+- [Author Info](#author's-info)
+- [Contributor Info](#contributor's-info)
 ---
 
 ## Description
@@ -71,7 +71,7 @@ SOFTWARE.
 > - Website - [James Q Quick](https://jamesqquick.com)
 
 ## Contributor's Info
-> - Github - [0-th](https://github.com/0-th)
 > - Twitter - [@\_\_0th\_\_](https://twitter.com/__0th__)
+> - Github - [0-th](https://github.com/0-th)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#markdown-cheat-sheet)
