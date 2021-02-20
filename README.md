@@ -1,14 +1,14 @@
 # Markdown Worksheet
 
-![Project Image](https://github.com/jamesqquick/markdown-worksheet/blob/master/screenshot.png)
+![Project Image](https://i.imgur.com/5Vq50PW.png)
 
-> Worksheet to practice beginner's Markdown.
+> ### A once beginner Markdown worksheet turned cheat sheet.
 
 ---
 
 
-### Table of Contents
-You're sections headers will be used to reference location of destination.
+## Table of Contents
+Sections headers were used as reference to the location point
 
 - [Description](#description)
 - [How To Use](#how-to-use)
@@ -20,27 +20,22 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-The [worksheet.md](https://github.com/jamesqquick/markdown-worksheet/blob/master/worksheet.md) is a beginners worksheet to Markdown.  It will walk you through the basic syntax of Markdown and provide you with exercises to practice what you learn.
-
+The [worksheet.md](https://github.com/jamesqquick/markdown-worksheet/blob/master/worksheet.md) is a beginners Markdown worksheet turned cheat sheet. It gives a _comprehensive_ overview of the Markdown syntax.
 #### Technologies
 
 - Markdown
-
-[Back To The Top](#markdown-worksheet)
 
 ---
 
 ## How To Use
 
-To get the worksheet, simply download or clone this repository.  From there, you can open it up in a text editor (I suggest Visual Studio Code) to make changes and practice by completing the "TODO" items.
+To get the worksheet, simply download or clone this repository.  From there, you can open it up in a text editor (I suggest Visual Studio Code) to make changes and for _**reference** purposes_.
 
 
 ## Additional Resources
 - [Markdown Cheat Sheet - Adam P on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 - [Daring Fireball Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
 - [MarkDown in Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
-
-[Back To The Top](#markdown-worksheet)
 
 ---
 
@@ -68,13 +63,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#markdown-worksheet)
-
 ---
 
-## Author Info
+## Author's Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+> - Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
+> - Website - [James Q Quick](https://jamesqquick.com)
 
-[Back To The Top](#read-me-template))
+## Contributor's Info
+> - Github - [0-th](https://github.com/0-th)
+> - Twitter - [@\_\_0th\_\_](https://twitter.com/__0th__)
+
+[Back To The Top](#read-me-template)

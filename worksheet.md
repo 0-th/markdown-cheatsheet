@@ -299,7 +299,7 @@ You can do blocks of code by surround it with 3 backtick (``` ```)
 
 > **TODO** Display a block of code from your favorite language
 
-The above does not give language specific highlighting.  You can specify the programming language immediately following the opening 3 backticks.  You Should see a difference in highliting!
+The above does not give language specific highlighting.  You can specify the programming language immediately following the opening 3 backtick.  You Should see a difference in highlighting!
 
 
 <!-- 
@@ -390,7 +390,18 @@ You can also align (Center, left, right) the text in a column by using colons (:
 | Aligned left | Aligned center | Aligned right |
 
 ---
+## Escape Character
+Use the Backslash character to escape characters that are used in markdown syntax.
 
+<!-- 
+    Example
+    An underscore (\_)
+    An asterisk (\*)
+ -->
+
+> **TODO** Write a sentence that contains characters used in markdown's syntax and escape them
+
+---
 ## Custom HTML
 
 Since MarkDown gets automatically converted to HTML, you can add raw HTML directly to your MarkDown.
