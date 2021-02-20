@@ -30,19 +30,24 @@ Headers are defined by the '#'symbol.  One '#' for H1, two for H2, etc.
     # H1 Header 
 -->
 > **TODO**. Create an H1 
+> # Header 1
 
 > **TODO**. Create an H2 
+> ## Header 2
+
 
 > **TODO**. Create an H3 
+> ### Header 3
+
 
 > **TODO**. Create an H4 
-
+> #### Header 4
 ---
 
 ## Quotes
 
 
-Quotes are defined by the  '>' symbol 
+Quotes are defined by the '>' symbol 
 
 <!--
     Example
@@ -50,7 +55,9 @@ Quotes are defined by the  '>' symbol
     > This is an example quote
 -->
 
-> **TODO**. Create a quote
+> **TODO**. Create a quote  
+
+> A quote I created
 
 You can combine a header with a quote.
 
@@ -62,6 +69,7 @@ You can combine a header with a quote.
 
 > **TODO**. Create an H2 Quote 
 
+> ## An Header 2 Quote
 ---
 
 ## Emphasis
@@ -76,7 +84,7 @@ Two before and after (no spaces) a section of texts makes it bold
     __Bold Text with underscores__
 -->
 
-One before and after (no spaces) a section of texts makes it bold 
+One before and after (no spaces) a section of texts makes it italicized
 
 <!-- 
     Example
@@ -93,6 +101,10 @@ You can also put Bold and Italicized text inline by surrounding a group of words
 -->
 
 > **TODO**. Create a bold sentence, an italicized sentence, and a sentence with both bold and italicized text inline
+  
+> **A Bold Sentence**
+
+> *An Italicized sentence*
 
 ## Horizontal Rule
 A horizontal rule gives a visible line break.  You can create one by putting three or more hypens, asterisks, or underscores (-, *, _).
@@ -109,6 +121,9 @@ For what it's worth, I prefer dashes...
 
 > **TODO** Create a horizontal rule
 
+> **Horizontal rule below:**
+
+> ---
 ---
 
 ## Lists
@@ -123,7 +138,7 @@ Create unordered lists using '-', '*', '+,
     - sdfsd
 -->
 
-You can create sublists by indenting
+You can create sub lists by indenting
 <!-- 
     Example
 
@@ -141,10 +156,21 @@ Create ordered lists using a number prefix
     3. item 3 
 -->
 
-> **TODO** Create an unordered list of your 5 favorite TV Shows 
+> **TODO** Create an unordered list of your 5 favorite TV Shows
+
+> - Silicon Valley
+> - Stranger Things
+> - Grey's Anatomy
+> - The walking dead
+> - House of cards 
 
 > **TODO** Create an ordered list of your top 5 Movies 
 
+> 1. Little
+> 2. Superman
+> 3. End game
+> 4. The internship
+> 5. Social Network
 ---
 
 ## Links
@@ -166,7 +192,15 @@ Create a link with text by surrounding text with brackets, [], and link immediat
 
 > **TODO** Create a link to your website, twitter, or github. with no text
 
+> <https://twitter.com/__0th__>  
+> <https://github.com/0-th>  
+> <https://0-th.github.io/0th/>
+
 > **TODO** Create a link with text to your website, twitter, or github
+
+> [Twitter](https://twitter.com/__0th__)  
+> [Github](https://github.com/0-th)  
+> [Website](https://0-th.github.io/0th/)
 
 What if you needed to reuse a link several times?  Well, you could copy and paste that link each time.  That means, if you need to update the link, you will have to do it each time its used.  There's a better way!
 
@@ -188,6 +222,11 @@ Then use the reference style link by using your text inside of brackets followed
 
 > **TODO** Create a reference link to your website and reference it three times
 
+[My website]:  https://0-th.github.io/0th/
+> This is the first reference to my website: [My website firstly][My website]  
+> This is the second reference to my website: [My website secondly][My website]  
+> This is the third reference to my website: [My website thirdly][My website]
+
 You can also link to other locations on your markdown page.  Remember, your MarkDown will get converted to HTML, so you can, in theory, use a anchor tag to link to an element with a specific ID.  You can find an example of this in the list of sections at the top of this document.
 
 When we create a header tag for example, it implicitly creates an id property.
@@ -200,6 +239,9 @@ Ex 'Header Info' becomes header-info
 
 > **TODO** Create a link to another part of your page.
 
+> [Top of the document](#markdown-starter-worksheet)  
+> [Header](#headers)  
+> [Bottom of the document](#end-of-document)
 
 ---
 
@@ -233,15 +275,18 @@ Use the reference
 
 > **TODO** Create a reference link to your profile picture and then reference it.
 
+[profile-pic]: https://i.imgur.com/C7jzMFJ.png
+![0th][profile-pic]
+
 ---
 
 ## Code
 
-You can do inline code with `backticks` (``)
+You can do inline code with `backtick` (``)
 
 > **TODO** Display a line of text with inline code
 
-You can do blocks of code by surroung it with 3 backticks (``` ```)
+You can do blocks of code by surround it with 3 backtick (``` ```)
 
 <!-- 
     Example
@@ -278,6 +323,15 @@ The above does not give language specific highlighting.  You can specify the pro
 
 > **TODO** Display a block of code from your favorite language while specifying the language
 
+```python
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def index:
+    return "<marquee><h1>Welcome to Flask</h1></marquee>"
+```
+
 
 ---
 
@@ -313,6 +367,12 @@ The column definitions and row definitions do not have to have the exact same wi
 
 > **TODO** Create a table with three columns and two rows
 
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Row 1    | Item 1   | Item 2   |
+| Row 2    | Item 3   | Item 3   |
+
+
 You can also align (Center, left, right) the text in a column by using colons (:) in the line breaks between headers and rows.  No colon means the default **left alignment**.  Colons on each side signifies **center alignment**.  And a trailing colon means **right alignment**.
 
 > **TODO** Create a table with three columns, one aligned left, one aligned center, and one aligned right
@@ -324,6 +384,10 @@ You can also align (Center, left, right) the text in a column by using colons (:
     | ------ | :------: | --------: |
     | Aligned Left | Aligned Center | Aligned Right | 
 -->
+
+| Header 1     | Header 2       | Header 3      |
+| --------     | :-------:      | -------:      |
+| Aligned left | Aligned center | Aligned right |
 
 ---
 
@@ -342,6 +406,12 @@ Creates this
 
 > **TODO** If you are comfortable with HTML, add some raw HTML.
 
+<marquee>
+<h2> My favorite for now </h2>
+<a href="https://i.imgur.com/C7jzMFJ.png" alt="github, fcc profile pic">
+<img src="https://i.imgur.com/C7jzMFJ.png">
+</a>
+</marquee>
 ---
 
 ## Custom CSS
@@ -357,9 +427,21 @@ You can also add custom CSS to your MarkDown to add additional styling to your d
 ```
 > **TODO** If you are comfortable with CSS, give your page some style.
 
+<style>
+    #bare-image {
+        border: 10px solid blue;
+    }
+</style>
+<div>
+<img src="https://i.imgur.com/C7jzMFJ.png" id="bare-image">
+</div>
 ---
 
 ## Additional Resources
 - [Markdown Cheat Sheet - Adam P on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 - [Daring Fireball Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
 - [MarkDown in Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
+
+---
+
+# End Of Document
