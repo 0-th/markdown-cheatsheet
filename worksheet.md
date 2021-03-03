@@ -241,7 +241,7 @@ Ex 'Header Info' becomes header-info
 
 > [Top of the document](#markdown-starter-worksheet)  
 > [Header](#headers)  
-> [Bottom of the document](#end-of-document)
+> [Bottom of the document](#additional-resources)
 
 ---
 
@@ -399,7 +399,9 @@ Use the Backslash character to escape characters that are used in markdown synta
     An asterisk (\*)
  -->
 
-> **TODO** Write a sentence that contains characters used in markdown's syntax and escape them
+> **TODO** Write a sentence that contains characters used in markdown's syntax and escape them  
+
+> \_\_name\_\_ in python programming language.
 
 ---
 ## Custom HTML
@@ -423,6 +425,7 @@ Creates this
 <img src="https://i.imgur.com/C7jzMFJ.png">
 </a>
 </marquee>
+
 ---
 
 ## Custom CSS
@@ -454,5 +457,3 @@ You can also add custom CSS to your MarkDown to add additional styling to your d
 - [MarkDown in Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
 
 ---
-
-###### End Of Document
